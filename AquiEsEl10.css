@@ -203,7 +203,7 @@
 				background-repeat: no-repeat;
 			} 
 
-				#header-img:hover {background-position: -44px -226px;}
+			/*#header-img:hover {background-position: -44px -226px;}*/
 			
 			.pagename a {
 				display: block;
@@ -216,11 +216,23 @@
 				background-repeat: no-repeat;
 				text-indent: -9999px;
 			}
-/*  clear alien */
-
-#header-img{top: -9000px}
 
 
+			/*  clear alien */
+
+			#header-img{display:none}
+
+			/*h1.redditname:before {*/
+				/*font-size:14px;*/
+				/*content:"Bienvenido a ";*/
+				/*display:block;*/
+				/*font-weight:normal;*/
+			/*}*/
+			h1.redditname {
+				font-size:28px; 
+				text-align:center;
+				display:block;
+			}
 
 
 .link {
@@ -422,24 +434,15 @@
 					
 			/* SUBMIT LINK OR POST */
 			.morelink {
-				z-index: 97;
 				width: 270px;
 				height: 115px;
-				background-color: pink; 
+				background-color: white; 
 				background-image: none!important;
 				border: none;
 				border-radius: 2px;
 				margin-left: 15px;
 				transition: all 0.15s ease;
 			}
-
-				.morelink:hover {
-					background-color: #7BA8FF;
-				}
-
-					.morelink:active {
-						background-color: #3863B6;
-					}
 
 				.morelink a {
 					color: #fff !important;
@@ -644,7 +647,6 @@
 
 			/* Search */
 			#search {
-
 			}
 			
 				#search input[type=text] {
@@ -2413,13 +2415,6 @@
 .flair-cyan{ color:cyan}
 .flair-brown{ color:brown}
 .flair-blue{ color:blue}
-
-
-
-
-
-
-
 
 
 	/* --------------------------- */
