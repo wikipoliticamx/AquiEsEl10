@@ -16,10 +16,10 @@ Este es el espacio para encontrarnos, compartir ideas para proponer y discutir s
 
 * [Seguridad](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=flair%3ASeguridad)
 * [Espacios públicos](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=flair%3AEspacios+públicos)
-* [Movilidad](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=flair%3ASeguridad)
-* [Bienes públicos](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=flair%3ASeguridad)
-* [Uso de suelo](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=flair%3ASeguridad)
-* [Corrupción y transparencia](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=flair%3ASeguridad)
+* [Movilidad](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=flair%3AMovilidad)
+* [Bienes públicos](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=flair%3ABienes+públicos)
+* [Uso de suelo](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=flair%3AUso+de+suelo)
+* [Corrupción y transparencia](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=flair%3ACorrución+y+transparencia)
 
 # Reglas
 1. Be excellent to each other.
