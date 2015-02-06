@@ -212,12 +212,14 @@ body {
 			text-align:center;
 			display:block;
 			width:150px;
+			color:black;
 		}
 		.titlebox h1.redditname a:before {
 			font-size:14px;
 			content:"Bienvenido a";
 			display:block;
 			font-weight:normal;
+			color:#ccc;
 		}
 
 
@@ -619,18 +621,67 @@ body {
 				display:block;
 				padding:5px;
 				margin:2px;
-				border:2px solid black;
 				background:#eee;
-				color:black;
+				color:white;
+			}
+			.titlebox .md ul:nth-of-type(2) li a {
+				color:white;
 			}
 			.titlebox .md ul:nth-of-type(2) li:hover {
 				background:#ccc;
 				text-decoration:none;
 			}
+			.titlebox .md ul:nth-of-type(2) li a:hover {
+				color:white;
+				text-decoration:none;
+			}
+
+			/* seguridad */
+			.titlebox .md ul:nth-of-type(2) li:nth-of-type(1) {
+				background:#CD332A;
+			}
+			.titlebox .md ul:nth-of-type(2) li:nth-of-type(1):hover {
+				background:#F13A30;
+			}
+			/* espacios publicos */
+			.titlebox .md ul:nth-of-type(2) li:nth-of-type(2) {
+				background:#469B7E;
+			}
+			.titlebox .md ul:nth-of-type(2) li:nth-of-type(2):hover {
+				background:#5ED3AC;
+			}
+			/* movilidad */
+			.titlebox .md ul:nth-of-type(2) li:nth-of-type(3) {
+				background:#DE4763;
+			}
+			.titlebox .md ul:nth-of-type(2) li:nth-of-type(3):hover {
+				background:#F74E6D;
+			}
+			/* bienes publicos */
+			.titlebox .md ul:nth-of-type(2) li:nth-of-type(4) {
+				background:#4FCCBA;
+			}
+			.titlebox .md ul:nth-of-type(2) li:nth-of-type(4):hover {
+				background:#5FF9E2;
+			}
+			/* uso de suelo */
+			.titlebox .md ul:nth-of-type(2) li:nth-of-type(5) {
+				background:#EE9466;
+			}
+			.titlebox .md ul:nth-of-type(2) li:nth-of-type(5):hover {
+				background:#FD9D6C;
+			}
+			/* corrupcion y transparencia */
+			.titlebox .md ul:nth-of-type(2) li:nth-of-type(6) {
+				background:#5B104F;
+			}
+			.titlebox .md ul:nth-of-type(2) li:nth-of-type(6):hover {
+				background:#8B1879;
+			}
 
 			.titlebox .md h1 {
 				padding:5px;
-				border:2px solid black;
+				border-bottom:1px solid black;
 				text-align:center;
 			}
 
@@ -685,8 +736,7 @@ body {
 				transition: all .1s ease;
 			}
 
-			/* Nuevo Post */
-			/* Haz una propuesta */
+			/* botones para nuevas threads */
 			.titlebox h5 {
 				width: 250px;
 				position:absolute;
@@ -694,47 +744,42 @@ body {
 				top:250px;
 				height: 30px;
 				color: #fff;
-				background-color: black;
+				background-color: #F1E315;
 				border:1px: solid black;
 				display: block;
 				font-size: 18px;
-				text-align: center;
+				text-align: left;
 				line-height: 31px;
 				margin-top: 10px;
 				margin-bottom: 10px;
 			}
-			/* Comparte una noticia */
+			/* haz una propuesta */
+			.titlebox h5:nth-of-type(1) {
+				color:#555;
+			}
+			/* comparte una noticia */
 			.titlebox h5:nth-of-type(2) {
-				background-color: gray;
+				background-color:#60C0BE;
 				top:290px;
 			}
-			/* Nuestro distrito */
+			/* nuestro distrito */
 			.titlebox h5:nth-of-type(3) {
-				background-color: gray;
+				background-color:#215251;
 				top:330px;
 			}
 
-				.titlebox h5 a, .titlebox h5 a:hover {
-					display:block;
-					height: 30px;
-					text-decoration: none;
-					color: #fff;
-					cursor: pointer;
-					line-height:31px;
-					text-indent:20px;
-					position:absolute;
-					border-left:20px solid #aaa;
-				}
+			.titlebox h5 a, .titlebox h5 a:hover {
+				display:block;
+				height: 30px;
+				width:250px;
+				text-decoration: none;
+				color: inherit;
+				cursor: pointer;
+				line-height:31px;
+				text-indent:20px;
+				position:absolute;
+			}
 
-				.titlebox h5:hover {
-					background-color: #77a7fb;
-					text-decoration: none;
-				}
-
-					.titlebox h5:active {
-						background-color: #306cd1;
-						border-bottom: 2px solid #306cd1;
-					}
 
 		/* Search */
 		.side #search {
