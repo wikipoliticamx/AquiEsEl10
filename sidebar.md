@@ -1,14 +1,15 @@
-##### [Haz una propuesta](http://www.reddit.com/r/AquiEsEl10/submit?sidebar&selftext=true&title=PROPUESTA:+&text=**Propon!:**)
-##### [Comparte una noticia](http://www.reddit.com/r/AquiEsEl10/submit?sidebar&selftext=true&title=COMPARTE:+&text=**Comparte!:**)
-#####  [Cuéntanos de tu distrito](http://www.reddit.com/r/AquiEsEl10/submit?sidebar&selftext=true&title=DISTRITO:!&text=**En mi distrito:**)
-#####  [Haz una sugerencia](http://www.reddit.com/r/AquiEsEl10/submit?sidebar&selftext=true&title=SUGERENCIA:!&text=**En mi distrito:**)
+##### [Haz una propuesta](http://www.reddit.com/r/AquiEsEl10/submit?sidebar&selftext=true&title=PROPUESTA%3A+)
+##### [Comparte una noticia](http://www.reddit.com/r/AquiEsEl10/submit?sidebar&selftext=true&title=NOTICIA%3A+)
+#####  [Cuéntanos de tu distrito](http://www.reddit.com/r/AquiEsEl10/submit?sidebar&selftext=true&title=EN+MI+DISTRITO%3A+)
+#####  [Informa sobre las elecciones](http://www.reddit.com/r/AquiEsEl10/submit?sidebar&selftext=true&title=ELECCIONES+2015%3A+)
+#####  [Haz una sugerencia](http://www.reddit.com/r/AquiEsEl10/submit?sidebar&selftext=true&title=SUGERENCIA%3A+)
 
 Este es el espacio para encontrarnos, compartir ideas para proponer y discutir sobre [nuestro Distrito 10](https://www.google.com/maps/d/viewer?mid=z1TD728Xq-aQ.kzsyCxPggqIE) en Jalisco, México.
 
 * [Propuestas](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=PROPUESTA%3A)
-* [Noticias D10](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=NOTICIA%3A)
-* [Nuestro Distrito](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=EN+NUESTRO+DITRITO%3A)
-* [Elecciones 2015](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=ELECCIONES%3A)
+* [Noticias](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=NOTICIA%3A)
+* [Mi Distrito](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=EN+MI+DITRITO%3A)
+* [Elecciones 2015](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=ELECCIONES+2015%3A)
 * [Sugerencias](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=SUGERENCIA%3A)
 
 # Mesas de trabajo
@@ -44,4 +45,3 @@ Magia.
 
 * [@Wikipoliticajal](https://www.facebook.com/pages/Wikipolítica-Jalisco/1492178621017984)
 * [Wikipolítica Jalisco](https://twitter.com/WikipoliticaJal)
-
