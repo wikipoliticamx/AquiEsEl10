@@ -113,7 +113,7 @@
 		/* Top Most header */
 		#sr-header-area {
 			height: 18px;
-			background-color: #006666;
+			background-color: rgba(0,0,0,0.05);
 			border-bottom: 0px solid;
 			color: rgba(255,255,255,0.5);
 
@@ -144,7 +144,7 @@
 			}
 		
 			.dropdown.srdrop .selected {background-image: none;}
-				.dropdown.srdrop .selected:after {content: "â–¼";}
+				.dropdown.srdrop .selected:after {content: "▼";}
 			.sr-bar .separator, .seperator {color: rgba(255,255,255,0.5);}
 
 			#sr-header-area .width-clip .dropdown.srdrop .selected.title {
@@ -168,15 +168,13 @@
 			 	color: #fff !important;
 			 }
 		
-		/* Header Image*/
+		/* Header Image */
 		#header {
 			height: 167px;
 			background: #2a2b2e url(%%headerimg%%) no-repeat fixed 50% 0%;
-                        background-color: #006666;
 			border-bottom: 0px solid;
 			overflow: visible !important;
 		}
-
 
 			#header:after {
 				position: absolute;
@@ -203,7 +201,7 @@
 				background-repeat: no-repeat;
 			} 
 
-			/*#header-img:hover {background-position: -44px -226px;}*/
+				#header-img:hover {background-position: -44px -226px;}
 			
 			.pagename a {
 				display: block;
@@ -212,37 +210,15 @@
 				left: 8px;
 				z-index: 99;
 				background-image: url(%%logo%%);
-				background-position: 0px -0px;
+				background-position: 0px 0px;
 				background-repeat: no-repeat;
 				text-indent: -9999px;
 			}
 
-
-			/*  clear alien */
-
-			#header-img{display:none}
-
-			h1.redditname {
-				font-size:28px; 
-				text-align:center;
-				display:block;
-				width:150px;
-			}
-			.titlebox h1.redditname a:before {
-				font-size:14px;
-				content:"Bienvenido a";
-				display:block;
-				font-weight:normal;
-			}
+				.pagename a:hover {background-position: 0px -77px;}
 
 
-			.link {
-				 border-bottom: 3px dotted #D1D1D1 !important;
-				 padding-bottom: 1em;
-			}
-
-
-			.pagename {visibility: hidden;}
+				.pagename {visibility: hidden;}
 
 		/* HOT / NEW / ETC */
 		#header .tabmenu {
@@ -251,7 +227,7 @@
 			top: 132px;
 			margin: 0px;
 			right:0px;
-			left: 150px;
+			left: 0px;
 			padding: 0px;
 			height: 44px;
 			background-color: transparent;
@@ -305,16 +281,8 @@
 			display: none;
 		}
 
-/*remove promoted*/
+
 		/* User bar */
-.listing-page .tabmenu li:nth-of-type(3),   /* Rising */
-.listing-page .tabmenu li:nth-of-type(4),   /* Controversial */
-.listing-page .tabmenu li a[href*="/ads"],  /* Promoted tab */
-.listing-page .tabmenu li a[href*="/promoted"], /* Self-serve advertising */
-.listing-page .tabmenu li a[href*="/gilded"]    /* gilded */
-{display:none;}
-
-
 		#header-bottom-right {
 			position: absolute;
 			top: 141px;
@@ -433,16 +401,24 @@
 					
 			/* SUBMIT LINK OR POST */
 			.morelink {
+				z-index: 97;
 				width: 270px;
-				height: 115px;
-				background-color: white; 
+				height: 32px;
+				background-color: #5B92FA;
 				background-image: none!important;
 				border: none;
 				border-radius: 2px;
 				margin-left: 15px;
 				transition: all 0.15s ease;
-				display:none;
 			}
+
+				.morelink:hover {
+					background-color: #7BA8FF;
+				}
+
+					.morelink:active {
+						background-color: #3863B6;
+					}
 
 				.morelink a {
 					color: #fff !important;
@@ -451,7 +427,6 @@
 					font-size: 15px;
 					font-family: arial, sans-serif;
 					line-height: 32px;
-					display:none;
 				}
 
 					.morelink a:hover {text-decoration: none;}
@@ -601,116 +576,13 @@
 					font-size: 110%;
 				}
 
-				.titlebox .md ul {list-style-type: none;}
-
-				/* pestañas */
-				.titlebox .md ul:nth-of-type(1) {
-					background:white;
-					border: 1px solid black;
-					position:absolute;
-					top:70px;
-					left:220px;
-					width:700px;
-					z-index:99;
-				}
-				.titlebox .md ul:nth-of-type(1) li {
-					width:120px;
-					text-align:center;
-					height:30px;
-					line-height:30px;
-					display:inline-block;
-					font-weight:bold;
-				}
-				.titlebox .md ul:nth-of-type(1) li:hover {
-					background:#aaa;
-					text-decoration:none;
-				}
-
-				/* mesas de trabajo */
-				.titlebox .md ul:nth-of-type(2) {
-					padding-left:0;
-				}
-				.titlebox .md ul:nth-of-type(2) li {
-					display:block;
-					padding:5px;
-					margin:2px;
-					border:2px solid black;
-					background:#eee;
-					color:black;
-				}
-				.titlebox .md ul:nth-of-type(2) li:hover {
-					background:#ccc;
-					text-decoration:none;
-				}
-
-				.titlebox .md h1 {
-					padding:5px;
-					border:2px solid black;
-					text-align:center;
-				}
-
-				/* Siguenos */
-				.titlebox .md ul:nth-of-type(3), .titlebox .md ul:nth-of-type(4) {
-					padding-left:0;
-				}
-				
-				/* Reglas */
-				.titlebox .md ol li{
-					position: relative;
-					display: block;
-					padding: .4em .8em .4em 2em;
-					margin: .5em .5em .5em 0;
-					background: #e8ebee;
-					color: #444;
-					text-decoration: none;
-					border-radius: 0;
-					border: 1px dotted #f9acb4;
-					font-size:12px;
-					-webkit-transition: all .3s ease;
-					-moz-transition: all .3s ease;
-					-ms-transition: all .3s ease;
-					-o-transition: all .3s ease;
-					transition: all .3s ease;
-				}
-
-				.titlebox .md ol li:hover { background: #fde2e5; margin-left: .5em; border: 1px dashed #f78793; }
-
-				.titlebox .md ol li:first-child { margin-top: 0; padding-top: 30px; background: #fdfdfd; border: 1px dotted #f78793; -webkit-border-top-left-radius: 10px; -moz-border-radius-topleft: 10px; border-top-left-radius: 10px; }
-				.titlebox .md ol li:first-child:hover { background: #fde2e5; margin-left: 0; }
-				.titlebox .md ol li:before{
-					content: counter(li);
-					counter-increment: li;
-					position: absolute;	
-					left: -1.3em;
-					margin-top: -1.3em;
-					top: 50%;
-					background: #f78793;
-					height: 2em;
-					color: #fff;
-					width: 2em;
-					line-height: 2em;
-					border: .3em solid #F6F6F6;
-					text-align: center;
-					font-weight: bold;
-					border-radius: 2em;
-					-webkit-transition: all .1s ease;
-					-moz-transition: all .1s ease;
-					-ms-transition: all .1s ease;
-					-o-transition: all .1s ease;
-					transition: all .1s ease;
-				}
-
-				/* Nuevo Post */
-				/* Haz una propuesta */
+				/* Download button */
 				.titlebox h5 {
-					width: 250px;
-					position:absolute;
-					display:block;
-					top:250px;
+					width: 100%;
 					height: 30px;
 					color: #fff;
-					background-color: black;
-					border:1px: solid black;
+					background-color: #5b92fa;
+					border-bottom: 2px solid #306cd1;
 					display: block;
 					font-size: 18px;
 					text-align: center;
@@ -718,31 +590,16 @@
 					margin-top: 10px;
 					margin-bottom: 10px;
 				}
-				/* Comparte una noticia */
-				.titlebox h5:nth-of-type(2) {
-					background-color: gray;
-					top:290px;
-				}
-				/* Nuestro distrito */
-				.titlebox h5:nth-of-type(3) {
-					background-color: gray;
-					top:330px;
-				}
 
 					.titlebox h5 a, .titlebox h5 a:hover {
-						display:block;
-						height: 30px;
 						text-decoration: none;
 						color: #fff;
 						cursor: pointer;
-						line-height:31px;
-						text-indent:20px;
-						position:absolute;
-						border-left:20px solid #aaa;
 					}
 
 					.titlebox h5:hover {
 						background-color: #77a7fb;
+						border-bottom: 2px solid #5b92fa;
 						text-decoration: none;
 					}
 
@@ -752,8 +609,8 @@
 						}
 
 			/* Search */
-			.side #search {
-				margin-top:150px;
+			#search {
+
 			}
 			
 				#search input[type=text] {
@@ -1109,7 +966,7 @@
 						line-height: 1.35em;
 					}
 
-			.domain {color: white; display:none}
+			.domain {color: white;}
 				.domain a {color: #c0c0c0;}
 					.domain a:hover {color: #5b92fa;text-decoration: none;}
 
@@ -1443,32 +1300,6 @@
 							visibility: visible;
 							background-color: rgba(0, 0, 0, 0.7);
 						}
-
-
-.flair:before{
-        opacity:.65;
-        max-width:17px!important;
-    height:18px!important
-}
-
-.flair-SOMETHING:before{
-    content:"";
-    width:10px;
-    height:16px;
-    display:inline-block;
-    background-repeat:no-repeat;
-    background-image:url("%%flairsheet%%");
-    background-position:0 0;
-    vertical-align:middle;
-    margin-right:3px
-}
-
-
-
-.linkflair-Example .linkflairlabel { background: #f00; color: #ff0; }
-
-
-
 
 		/* Flair Selector */
 		.flairselector.drop-choices.active {
@@ -1889,7 +1720,7 @@
 
 					.menuarea .dropdown.lightdrop .selected:hover {color: #5b92fa;}
 					.menuarea .dropdown.lightdrop .selected:after {
-						content: " â‰¡";
+						content: " ≡";
 						vertical-align: middle;
 						opacity: 0.5;
 					}
@@ -1956,7 +1787,6 @@
 			font-weight: normal;
 			font-size: 18px;
 			font-family: arial, sans-serif;
-
 		}
 
 			.link .usertext .md h2, .comments-page .comment .md h2 {color: #d73d32;}
@@ -2033,7 +1863,6 @@
 			position: relative;
 			top: 0px;
 			margin: 0px 150px 0px 80px;
-			margin-top:150px;
 			height: 50px;
 			background: none !important;
 			background-color: transparent;
@@ -2314,12 +2143,6 @@
 		/*.link .entry li a, .link:hover .entry li a {transition: opacity 0.15s ease-in-out;}*/		/* Currently causing issues. Needs investigating - https://github.com/Axel--/Naut-for-reddit/issues/9 */
 
 
-
-
-
-
-
-
 	/*  NIGHTMODE - Work in progress */
 	body:lang(nt), #search input[type=text]:lang(nt), .res-nightmode body  		{background-color: #1c1f26;}
 	.comments-page textarea:lang(nt), textarea:lang(nt) 						{background-color: #1c1f26 !important;}
@@ -2507,42 +2330,7 @@
 				border: 1px solid #3a7ae6;	/* Slightly darker to create nice edges */
 				color: #fff; /* Text color - alternatively use #333 when white is too light */
 				}
-				.linkflair-propuesta .linkflairlabel { 
-					background-color: yellow;
-					border: 1px solid #3a7ae6;
-					color: black;
-				}
-				.linkflair-noticia .linkflairlabel { 
-					background-color: pink;
-					border: 1px solid #3a7ae6;
-					color: black;
-				}
-				.linkflair-seguridad .linkflairlabel { 
-					background-color: blue;
-					border: 1px solid #3a7ae6;
-					color: black;
-				}
-				.linkflair-espacios-publicos .linkflairlabel { 
-					background-color: green;
-					border: 1px solid #3a7ae6;
-					color: black;
-				}
 
-
-
-/*Colorful User Flairs*/
-.flair{max-width:none; font-weight: 900;}
-.flair-green{ color:green}
-.flair-red{ color:red}
-.flair-orange{ color:orange}
-.flair-yellow{ color: yellow}
-.flair-purple{ color:purple }
-.flair-navy{ color:navy}
-.flair-black{ color:black}
-.flair-pink{ color:pink}
-.flair-cyan{ color:cyan}
-.flair-brown{ color:brown}
-.flair-blue{ color:blue}
 
 
 	/* --------------------------- */
@@ -2572,11 +2360,13 @@
 
 	/* CUSTOM LOGO CSS */
 		.pagename a {
-			top: 10px; /* The length the logo is moved from the top of the page */
-			width: 200px; /* TOTAL Image width */
-			height: 200px; /* 50% of the TOTAL height of the image. */
+			top: 84px; /* The length the logo is moved from the top of the page */
+			width: 185px; /* TOTAL Image width */
+			height: 43px; /* 50% of the TOTAL height of the image. */
 		}
 	
-			/*.pagename a:hover {background-position: 0px -10px;} [> Replace the 77 with your height <]*/
+			.pagename a:hover {background-position: 0px -43px;} /* Replace the 77 with your height */
 
 	/* --------------------------- */
+
+
