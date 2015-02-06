@@ -2531,18 +2531,18 @@
 
 
 /*Colorful User Flairs*/
-.flair{max-width:none; font-weight: 900;}
-.flair-green{ color:green}
-.flair-red{ color:red}
-.flair-orange{ color:orange}
-.flair-yellow{ color: yellow}
-.flair-purple{ color:purple }
-.flair-navy{ color:navy}
-.flair-black{ color:black}
-.flair-pink{ color:pink}
-.flair-cyan{ color:cyan}
-.flair-brown{ color:brown}
-.flair-blue{ color:blue}
+	.flair{max-width:none; font-weight: 900;}
+	.flair-green{ color:green}
+	.flair-red{ color:red}
+	.flair-orange{ color:orange}
+	.flair-yellow{ color: yellow}
+	.flair-purple{ color:purple }
+	.flair-navy{ color:navy}
+	.flair-black{ color:black}
+	.flair-pink{ color:pink}
+	.flair-cyan{ color:cyan}
+	.flair-brown{ color:brown}
+	.flair-blue{ color:blue}
 
 
 	/* --------------------------- */
