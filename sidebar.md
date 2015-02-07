@@ -19,7 +19,7 @@ Este es el espacio para encontrarnos, compartir ideas para proponer y discutir s
 * [Movilidad](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=flair%3AMovilidad)
 * [Bienes públicos](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=flair%3ABienes+públicos)
 * [Uso de suelo](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=flair%3AUso+de+suelo)
-* [Corrupción y transparencia](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=flair%3ACorrución+y+transparencia)
+* [Transparencia](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=flair%3ATransparencia)
 
 # Reglas
 1. Be excellent to each other.
@@ -43,5 +43,5 @@ Magia.
 
 &nbsp;
 
-* [@Wikipoliticajal](https://www.facebook.com/pages/Wikipolítica-Jalisco/1492178621017984)
+* [@WikipoliticaJal](https://www.facebook.com/pages/Wikipolítica-Jalisco/1492178621017984)
 * [Wikipolítica Jalisco](https://twitter.com/WikipoliticaJal)
