@@ -207,7 +207,6 @@ body {
 
 
 		/*  clear alien */
-
 		#header-img{display:none}
 
 		h1.redditname {
@@ -2889,3 +2888,13 @@ button:lang(nt), #search input[type='submit']:lang(nt), .wiki-page .wiki-page-co
 		/*.pagename a:hover {background-position: 0px -10px;} [> Replace the 77 with your height <]*/
 
 /* --------------------------- */
+
+/* Tenemos mas en comun de lo que creemos. */
+.side .md p:nth-of-type(1) {
+	color:#183C3C;
+	position:absolute;
+	top:30px;
+	left:200px;
+	z-index:100;
+	font-style:italic;
+}
