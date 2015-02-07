@@ -2775,32 +2775,37 @@ button:lang(nt), #search input[type='submit']:lang(nt), .wiki-page .wiki-page-co
 
 			/* Create your own! */
 
-					/* "squee" can be anything! 
-					This is what you use in the CSS field at the flair page */
+			/* "squee" can be anything! 
+			This is what you use in the CSS field at the flair page */
 			.linkflair-squee .linkflairlabel { 
 			background-color: #5b92fa; /* Base color */
 			border: 1px solid #3a7ae6;	/* Slightly darker to create nice edges */
 			color: #fff; /* Text color - alternatively use #333 when white is too light */
 			}
-			.linkflair-propuesta .linkflairlabel { 
-				background-color: yellow;
-				border: 1px solid #3a7ae6;
-				color: black;
-			}
-			.linkflair-noticia .linkflairlabel { 
-				background-color: pink;
-				border: 1px solid #3a7ae6;
-				color: black;
-			}
 			.linkflair-seguridad .linkflairlabel { 
-				background-color: blue;
-				border: 1px solid #3a7ae6;
-				color: black;
+				background-color: #CD332A;
+				color: #fff;
 			}
 			.linkflair-espacios-publicos .linkflairlabel { 
 				background-color: green;
 				border: 1px solid #3a7ae6;
 				color: black;
+			}
+			.linkflair-movilidad .linkflairlabel { 
+				background-color: #DE4763;
+				color: #fff;
+			}
+			.linkflair-bienes-publicos .linkflairlabel { 
+				background-color: #4FCCBA;
+				color: #555;
+			}
+			.linkflair-uso-de-suelo .linkflairlabel { 
+				background-color: #EE9466;
+				color: #fff;
+			}
+			.linkflair-transparencia .linkflairlabel { 
+				background-color: #5B104F;
+				color: #fff;
 			}
 
 /* --------------------------- */
