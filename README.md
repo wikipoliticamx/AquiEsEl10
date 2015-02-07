@@ -17,3 +17,18 @@ Step two: The CSS
   2. Paste the `AquiEsEl10.css` file into the css textarea.
   3. Upload the images from the /images/ folder - except the headerbypass one. (Don't rename them!)
   4. Hit save again!
+
+Other
+=====
+
+Using this in my vimrc to have scss files automatically processed to css and copied to the clipboard on saving them:
+
+```VimL
+autocmd BufWritePost,FileWritePost *.scss call ProcessAndCopySCSS()
+function ProcessAndCopySCSS()
+	let scss = expand('%:p')
+	exec "silent !sass --update " . scss
+	let css = substitute(scss, "scss", "css", "")
+	exec "silent !cat " . css . " | pbcopy"
+endfunction
+```
