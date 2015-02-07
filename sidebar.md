@@ -1,16 +1,16 @@
-##### [Haz una propuesta](http://www.reddit.com/r/AquiEsEl10/submit?sidebar&selftext=true&title=PROPUESTA%3A+)
-##### [Comparte una noticia](http://www.reddit.com/r/AquiEsEl10/submit?sidebar&selftext=true&title=NOTICIA%3A+)
-#####  [Cuéntanos de tu distrito](http://www.reddit.com/r/AquiEsEl10/submit?sidebar&selftext=true&title=EN+MI+DISTRITO%3A+)
-#####  [Informa sobre las elecciones](http://www.reddit.com/r/AquiEsEl10/submit?sidebar&selftext=true&title=ELECCIONES+2015%3A+)
-#####  [Haz una sugerencia](http://www.reddit.com/r/AquiEsEl10/submit?sidebar&selftext=true&title=SUGERENCIA%3A+)
+##### [Haz una propuesta](http://www.reddit.com/r/AquiEsEl10/submit?sidebar&selftext=true&title=%23Propuesta%3A+)
+##### [Comparte una noticia](http://www.reddit.com/r/AquiEsEl10/submit?sidebar&title=%23Noticia%3A+)
+#####  [Cuéntanos de tu distrito](http://www.reddit.com/r/AquiEsEl10/submit?sidebar&selftext=true&title=%23EnMiDistrito%3A+)
+#####  [Informa sobre las elecciones](http://www.reddit.com/r/AquiEsEl10/submit?sidebar&selftext=true&title=%23Elecciones2015%3A+)
+#####  [Haz una sugerencia](http://www.reddit.com/r/AquiEsEl10/submit?sidebar&selftext=true&title=%23Sugerencia%3A+)
 
 Este es el espacio para encontrarnos, compartir ideas para proponer y discutir sobre [nuestro Distrito 10](https://www.google.com/maps/d/viewer?mid=zSGSHyOMWpbM.kz1ta9zJH7wc) en Jalisco, México.
 
-* [Propuestas](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=PROPUESTA%3A)
-* [Noticias](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=NOTICIA%3A)
-* [Mi Distrito](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=EN+MI+DITRITO%3A)
-* [Elecciones 2015](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=ELECCIONES+2015%3A)
-* [Sugerencias](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=SUGERENCIA%3A)
+* [Propuestas](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=%23Propuesta%3A)
+* [Noticias](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=%23Noticia%3A)
+* [Mi Distrito](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=%23EnMiDistrito%3A)
+* [Elecciones 2015](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=%23Elecciones2015%3A)
+* [Sugerencias](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=%23Sugerencia%3A)
 
 # Mesas de trabajo
 
@@ -22,7 +22,7 @@ Este es el espacio para encontrarnos, compartir ideas para proponer y discutir s
 * [Transparencia](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=flair%3ATransparencia)
 
 # Reglas
-1. Be excellent to each other.
+1. Sé excelente con los demás.
 2. Lorem ipsum dolor.
 3. Lorem ipsum dolor.
 4. Lorem ipsum dolor.
