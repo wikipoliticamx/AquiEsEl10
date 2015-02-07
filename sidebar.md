@@ -4,7 +4,7 @@
 #####  [Informa sobre las elecciones](http://www.reddit.com/r/AquiEsEl10/submit?sidebar&selftext=true&title=ELECCIONES+2015%3A+)
 #####  [Haz una sugerencia](http://www.reddit.com/r/AquiEsEl10/submit?sidebar&selftext=true&title=SUGERENCIA%3A+)
 
-Este es el espacio para encontrarnos, compartir ideas para proponer y discutir sobre [nuestro Distrito 10](https://www.google.com/maps/d/viewer?mid=z1TD728Xq-aQ.kzsyCxPggqIE) en Jalisco, México.
+Este es el espacio para encontrarnos, compartir ideas para proponer y discutir sobre [nuestro Distrito 10](https://www.google.com/maps/d/viewer?mid=zSGSHyOMWpbM.kz1ta9zJH7wc) en Jalisco, México.
 
 * [Propuestas](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=PROPUESTA%3A)
 * [Noticias](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=NOTICIA%3A)
@@ -31,7 +31,6 @@ Este es el espacio para encontrarnos, compartir ideas para proponer y discutir s
 7. Lorem ipsum dolor.
 
 # Conoce tu distrito
-Magia.
 
 # Calendario
 Magia.
