@@ -31,6 +31,7 @@ Este es el espacio para encontrarnos, compartir ideas para proponer y discutir s
 7. Lorem ipsum dolor.
 
 # Conoce tu distrito
+[El distrito 10](https://www.google.com/maps/d/viewer?mid=zSGSHyOMWpbM.kz1ta9zJH7wc)
 
 # Calendario
 Magia.

@@ -766,7 +766,7 @@ body {
 				background:#5FF9E2;
 			}
 			.titlebox .md ul:nth-of-type(2) li:nth-of-type(4) a::before {
-				background:url(%%spritesheet%%) -66px -517px no-repeat transparent;
+				background:url(%%spritesheet%%) -66px -516px no-repeat transparent;
 			}
 			/* uso de suelo */
 			.titlebox .md ul:nth-of-type(2) li:nth-of-type(5) a {
@@ -795,6 +795,35 @@ body {
 				text-align:center;
 			}
 
+			/* mini-mapa */
+			.titlebox .md h1:nth-of-type(3) + p a::before {
+				content:'';
+				width:250px;
+				height:250px;
+				background:url(%%mapa-mini-distrito-10%%) 0 0 no-repeat transparent;
+				display:block;
+			}
+
+			.titlebox .md h1:nth-of-type(3) + p {
+				position:relative;
+				margin-left:10px;
+				text-align:center;
+			}
+
+			/* mini-mapa */
+			.titlebox .md h1:nth-of-type(3) + p a:after {
+				content:'';
+				width:934px;
+				height:933px;
+				background:url(%%mapa-distrito-10%%) 0 0 no-repeat transparent;
+				display:none;
+				position:absolute;
+				top:-400px;
+				left:-970px;
+			}
+			.titlebox .md h1:nth-of-type(3) + p a:hover::after {
+				display:block;
+			}
 
 			/* logo AQUI es el 10 */
 			.titlebox .md ul:nth-of-type(3)::before {
