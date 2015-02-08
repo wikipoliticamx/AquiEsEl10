@@ -3056,6 +3056,7 @@ button:lang(nt), #search input[type='submit']:lang(nt), .wiki-page .wiki-page-co
 		font-family:Helvetica !important;
 		letter-spacing:1px;
 		color:#fff !important;
+		position:relative;
 	}
 
 	/* tabs */
@@ -3094,4 +3095,41 @@ button:lang(nt), #search input[type='submit']:lang(nt), .wiki-page .wiki-page-co
 	&[value^="flair:Transparencia"] {
 		background:#5B104F;
 	}
+
+	/*&[value^="flair:Seguridad"]::before,*/
+	/*&[value^="flair:Espacios"]::before,*/
+	/*&[value^="flair:Movilidad"]::before,*/
+	/*&[value^="flair:Bienes"]::before,*/
+	/*&[value^="flair:Uso-de-suelo"]::before,*/
+	/*&[value^="flair:Transparencia"]::before*/
+	/*{*/
+		/*content:'';*/
+		/*position:absolute;*/
+		/*left:5px;*/
+		/*top:-3px;*/
+		/*width:45px;*/
+		/*height:45px;*/
+		/*background:transparent;*/
+		/*z-index:10;*/
+	/*}*/
+	
+	 /*mesas de trabajo */
+	/*&[value^="flair:Seguridad"]::before {*/
+		/*background:url(%%spritesheet%%) -66px -561px no-repeat transparent;*/
+	/*}*/
+	/*&[value^="flair:Espacios"]::before {*/
+		/*background:url(%%spritesheet%%) -66px -469px no-repeat transparent;*/
+	/*}*/
+	/*&[value^="flair:Movilidad"]::before {*/
+		/*background:url(%%spritesheet%%) -114px -469px no-repeat transparent;*/
+	/*}*/
+	/*&[value^="flair:Bienes"]::before {*/
+		/*background:url(%%spritesheet%%) -66px -516px no-repeat transparent;*/
+	/*}*/
+	/*&[value^="flair:Uso-de-suelo"]::before {*/
+		/*background:url(%%spritesheet%%) -114px -515px no-repeat transparent;*/
+	/*}*/
+	/*&[value^="flair:Transparencia"]::before {*/
+		/*background:url(%%spritesheet%%) -114px -561px no-repeat transparent;*/
+	/*}*/
 }

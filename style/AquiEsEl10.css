@@ -3033,7 +3033,42 @@ div.titlebox span.number:after {
 .search-page #search input[type=text] {
   margin-top: 4px;
   /* tabs */
-  /* mesas de trabajo */ }
+  /* mesas de trabajo */
+  /*&[value^="flair:Seguridad"]::before,*/
+  /*&[value^="flair:Espacios"]::before,*/
+  /*&[value^="flair:Movilidad"]::before,*/
+  /*&[value^="flair:Bienes"]::before,*/
+  /*&[value^="flair:Uso-de-suelo"]::before,*/
+  /*&[value^="flair:Transparencia"]::before*/
+  /*{*/
+  /*content:'';*/
+  /*position:absolute;*/
+  /*left:5px;*/
+  /*top:-3px;*/
+  /*width:45px;*/
+  /*height:45px;*/
+  /*background:transparent;*/
+  /*z-index:10;*/
+  /*}*/
+  /*mesas de trabajo */
+  /*&[value^="flair:Seguridad"]::before {*/
+  /*background:url(%%spritesheet%%) -66px -561px no-repeat transparent;*/
+  /*}*/
+  /*&[value^="flair:Espacios"]::before {*/
+  /*background:url(%%spritesheet%%) -66px -469px no-repeat transparent;*/
+  /*}*/
+  /*&[value^="flair:Movilidad"]::before {*/
+  /*background:url(%%spritesheet%%) -114px -469px no-repeat transparent;*/
+  /*}*/
+  /*&[value^="flair:Bienes"]::before {*/
+  /*background:url(%%spritesheet%%) -66px -516px no-repeat transparent;*/
+  /*}*/
+  /*&[value^="flair:Uso-de-suelo"]::before {*/
+  /*background:url(%%spritesheet%%) -114px -515px no-repeat transparent;*/
+  /*}*/
+  /*&[value^="flair:Transparencia"]::before {*/
+  /*background:url(%%spritesheet%%) -114px -561px no-repeat transparent;*/
+  /*}*/ }
   .search-page #search input[type=text][value^="#Propuesta"], .search-page #search input[type=text][value^="#Noticia"], .search-page #search input[type=text][value^="#Sugerencia"] {
     font-size: 200%;
     font-weight: normal;
@@ -3044,7 +3079,8 @@ div.titlebox span.number:after {
     font-weight: normal;
     font-family: Helvetica !important;
     letter-spacing: 1px;
-    color: #fff !important; }
+    color: #fff !important;
+    position: relative; }
   .search-page #search input[type=text][value^="#Propuesta"] {
     background: #F1E315; }
   .search-page #search input[type=text][value^="#Noticia"] {
