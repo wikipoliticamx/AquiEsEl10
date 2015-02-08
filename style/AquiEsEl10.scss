@@ -633,7 +633,7 @@ body {
 						line-height:35px;
 						display:inline-block;
 						font-weight:normal;
-						font-family:Helvetica;
+						font-family:Helvetica,sans-serif;
 						background:#2F7877;
 						border-bottom:5px solid #2F7877;
 						color:white;
@@ -681,11 +681,6 @@ body {
 				}
 			}
 			/* Elecciones 2015 */
-			.titlebox .md ul:nth-of-type(1) li:nth-of-type(4) {
-				width:170px;
-				&:hover {
-				}
-			}
 			.titlebox .md ul:nth-of-type(1) li:nth-of-type(4) a {
 				width:170px;
 				border-bottom-color:#555;
@@ -1516,7 +1511,7 @@ body {
 			padding-left:80px;
 		}
 		.thing:hover {
-			.linkflairlabel, &.linkflair:before { opacity:1; }
+			.linkflairlabel, &.linkflair:before, .flair-wikipolitica { opacity:1; }
 		}
 
 		.thing a.title { position:relative; }
@@ -2106,6 +2101,7 @@ body {
 		color:#437468;
 		border:1px solid #60a695;
 		position:relative;
+		opacity:0.3;
 	}
 	.flair-wikipolitica:before {
 		content:'Wikipolitica';
@@ -3055,4 +3051,35 @@ button:lang(nt), #search input[type='submit']:lang(nt), .wiki-page .wiki-page-co
 	left:200px;
 	z-index:100;
 	font-style:italic;
+}
+
+.search-page #search input[type=text] {
+	margin-top:4px;
+	&[value^="#Propuesta"],
+	&[value^="#Noticia"],
+	&[value^="#EnMiDistrito"],
+	&[value^="#Elecciones2015"],
+	&[value^="#Sugerencias"]
+	{
+		font-size:200%;
+		font-weight:bold;
+		font-family:Helvetica,sans-serif;
+	}
+	&[value^="#Propuesta"] {
+		background:#F1E315;
+	}
+	&[value^="#Noticia"] {
+		background:#60C0BE;
+	}
+	&[value^="#EnMiDistrito"] {
+		background:#215251;
+		color:#fff !important;
+	}
+	&[value^="#Elecciones2015"] {
+		background:#555;
+		color:#fff !important;
+	}
+	&[value^="#Sugerencia"] {
+		background:#aaa;
+	}
 }

@@ -603,7 +603,7 @@ div.titlebox span.word {
       line-height: 35px;
       display: inline-block;
       font-weight: normal;
-      font-family: Helvetica;
+      font-family: Helvetica,sans-serif;
       background: #2F7877;
       border-bottom: 5px solid #2F7877;
       color: white;
@@ -642,9 +642,6 @@ div.titlebox span.word {
     background: #215251; }
 
 /* Elecciones 2015 */
-.titlebox .md ul:nth-of-type(1) li:nth-of-type(4) {
-  width: 170px; }
-
 .titlebox .md ul:nth-of-type(1) li:nth-of-type(4) a {
   width: 170px;
   border-bottom-color: #555; }
@@ -1496,7 +1493,7 @@ div.titlebox span.word {
 .thing {
   padding-left: 80px; }
 
-.thing:hover .linkflairlabel, .thing:hover.linkflair:before {
+.thing:hover .linkflairlabel, .thing:hover.linkflair:before, .thing:hover .flair-wikipolitica {
   opacity: 1; }
 
 .thing a.title {
@@ -2079,7 +2076,8 @@ form#newlink.submit.content {
   background: #C3ECE3;
   color: #437468;
   border: 1px solid #60a695;
-  position: relative; }
+  position: relative;
+  opacity: 0.3; }
 
 .flair-wikipolitica:before {
   content: 'Wikipolitica';
@@ -3052,3 +3050,22 @@ div.titlebox span.number:after {
   left: 200px;
   z-index: 100;
   font-style: italic; }
+
+.search-page #search input[type=text] {
+  margin-top: 4px; }
+  .search-page #search input[type=text][value^="#Propuesta"], .search-page #search input[type=text][value^="#Noticia"], .search-page #search input[type=text][value^="#EnMiDistrito"], .search-page #search input[type=text][value^="#Elecciones2015"], .search-page #search input[type=text][value^="#Sugerencias"] {
+    font-size: 200%;
+    font-weight: bold;
+    font-family: Helvetica,sans-serif; }
+  .search-page #search input[type=text][value^="#Propuesta"] {
+    background: #F1E315; }
+  .search-page #search input[type=text][value^="#Noticia"] {
+    background: #60C0BE; }
+  .search-page #search input[type=text][value^="#EnMiDistrito"] {
+    background: #215251;
+    color: #fff !important; }
+  .search-page #search input[type=text][value^="#Elecciones2015"] {
+    background: #555;
+    color: #fff !important; }
+  .search-page #search input[type=text][value^="#Sugerencia"] {
+    background: #aaa; }
