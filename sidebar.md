@@ -19,10 +19,10 @@ Este es el espacio para encontrarnos, compartir ideas para proponer y discutir s
 # Mesas de trabajo
 
 * [Seguridad](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=flair%3ASeguridad)
-* [Espacios públicos](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=flair%3AEspacios+públicos)
+* [Espacios públicos](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=flair%3AEspacios-públicos)
 * [Movilidad](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=flair%3AMovilidad)
-* [Bienes públicos](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=flair%3ABienes+públicos)
-* [Uso de suelo](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=flair%3AUso+de+suelo)
+* [Bienes públicos](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=flair%3ABienes-públicos)
+* [Uso de suelo](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=flair%3AUso-de-suelo)
 * [Transparencia](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=flair%3ATransparencia)
 
 # Reglas

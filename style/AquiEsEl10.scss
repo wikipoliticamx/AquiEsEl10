@@ -697,139 +697,117 @@ body {
 				}
 			}
 
-
-
 			/* mesas de trabajo */
 			.titlebox .md ul:nth-of-type(2) {
 				padding-left:0;
-			}
-			.titlebox .md ul:nth-of-type(2) li {
-				display:block;
-				padding:5px;
-				margin:10px 2px;
-				color:white;
-				text-align:right;
-				position:relative;
-			}
-			.titlebox .md ul:nth-of-type(2) li a {
-				color:white;
-				display:inline-block;
-				border-radius:5px;
-				box-shadow:2px 2px 3px rgba(0,0,0,0.2);
-				-webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
-				-moz-box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
-				line-height:30px;
-				height:30px;
-				text-indent:30px;
-				text-align:left;
-				width:205px;
-				margin-right:25px;
+				li {
+					display:block;
+					padding:5px;
+					margin:10px 2px;
+					color:white;
+					text-align:right;
+					position:relative;
+					a {
+						color:white;
+						display:inline-block;
+						border-radius:5px;
+						box-shadow:2px 2px 3px rgba(0,0,0,0.2);
+						-webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+						-moz-box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+						line-height:30px;
+						height:30px;
+						text-indent:30px;
+						text-align:left;
+						width:205px;
+						margin-right:25px;
 
-				-webkit-transition: all .3s ease;
-				-moz-transition: all .3s ease;
-				-ms-transition: all .3s ease;
-				-o-transition: all .3s ease;
-				transition: all .3s ease;
+						-webkit-transition: all .3s ease;
+						-moz-transition: all .3s ease;
+						-ms-transition: all .3s ease;
+						-o-transition: all .3s ease;
+						transition: all .3s ease;
+						&:before {
+							content:'';
+							position:absolute;
+							left:5px;
+							top:-3px;
+							width:45px;
+							height:45px;
+							background:transparent;
+							z-index:10;
+
+							-webkit-transition: all .3s ease;
+							-moz-transition: all .3s ease;
+							-ms-transition: all .3s ease;
+							-o-transition: all .3s ease;
+							transition: all .3s ease;
+						}
+						&:hover {
+							color:white;
+							text-decoration:none;
+							width:185px;
+
+							box-shadow:4px 4px 7px rgba(0,0,0,0.5);
+							-webkit-box-shadow: 4px 4px 7px rgba(0,0,0,0.5);
+							-moz-box-shadow: 4px 4px 7px rgba(0,0,0,0.5);
+						}
+						&:hover::before {
+							left:25px;
+							
+							 /*-webkit-animation:spin 2s ease-in-out;*/
+							 /*-moz-animation:spin 2s ease-in-out;*/
+							 /*animation:spin 2s ease-in-out; }*/
+
+							 /*@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }*/
+							 /*@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }*/
+							 /*@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }*/
+						 }
+					}
+				}
 			}
 			
-			.titlebox .md ul:nth-of-type(2) li a::before {
-				content:'';
-				position:absolute;
-				left:5px;
-				top:-3px;
-				width:45px;
-				height:45px;
-				background:transparent;
-				z-index:10;
 
-				-webkit-transition: all .3s ease;
-				-moz-transition: all .3s ease;
-				-ms-transition: all .3s ease;
-				-o-transition: all .3s ease;
-				transition: all .3s ease;
-			}
-			.titlebox .md ul:nth-of-type(2) li a:hover {
-				color:white;
-				text-decoration:none;
-				width:185px;
-
-				box-shadow:4px 4px 7px rgba(0,0,0,0.5);
-				-webkit-box-shadow: 4px 4px 7px rgba(0,0,0,0.5);
-				-moz-box-shadow: 4px 4px 7px rgba(0,0,0,0.5);
-			}
-			.titlebox .md ul:nth-of-type(2) li a:hover::before {
-				left:25px;
-				
-				 /*-webkit-animation:spin 2s ease-in-out;*/
-				 /*-moz-animation:spin 2s ease-in-out;*/
-				 /*animation:spin 2s ease-in-out; }*/
-
-				 /*@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }*/
-				 /*@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }*/
-				 /*@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }*/
-			 }
-
-			/* seguridad */
-			.titlebox .md ul:nth-of-type(2) li:nth-of-type(1) a {
-				background:#CD332A;
-			}
-			.titlebox .md ul:nth-of-type(2) li:nth-of-type(1) a:hover {
-				background:#F13A30;
-			}
-			.titlebox .md ul:nth-of-type(2) li:nth-of-type(1) a::before {
-				background:url(%%spritesheet%%) -66px -561px no-repeat transparent;
+			.titlebox .md ul:nth-of-type(2) {
+				/* seguridad */
+				li:nth-of-type(1) a { background:#CD332A;
+					&:hover { background:#F13A30; }
+					&:before { background:url(%%spritesheet%%) -66px -561px no-repeat transparent; }
+				}
+				/* espacios publicos */
+				li:nth-of-type(2) a { background:#469B7E;
+					&:hover { background:#5ED3AC; }
+					&:before { background:url(%%spritesheet%%) -66px -469px no-repeat transparent;
+					}
+				}
+				/* movilidad */
+				li:nth-of-type(3) a { background:#DE4763;
+					&:hover { background:#F74E6D; }
+					&:before { background:url(%%spritesheet%%) -114px -469px no-repeat transparent;
+					}
+				}
+				/* bienes publicos */
+				li:nth-of-type(4) a { background:#4FCCBA;
+					&:hover { background:#5FF9E2; }
+					&:before {
+						background:url(%%spritesheet%%) -66px -516px no-repeat transparent;
+					}
+				}
+				/* uso de suelo */
+				li:nth-of-type(5) a { background:#EE9466;
+					&:hover { background:#FD9D6C; }
+					&:before {
+						background:url(%%spritesheet%%) -114px -515px no-repeat transparent;
+					}
+				}
+				/* transparencia */
+				li:nth-of-type(6) a { background:#5B104F;
+					&:hover { background:#8B1879; }
+					&:before {
+						background:url(%%spritesheet%%) -114px -561px no-repeat transparent;
+					}
+				}
 			}
 			
-			/* espacios publicos */
-			.titlebox .md ul:nth-of-type(2) li:nth-of-type(2) a {
-				background:#469B7E;
-			}
-			.titlebox .md ul:nth-of-type(2) li:nth-of-type(2) a:hover {
-				background:#5ED3AC;
-			}
-			.titlebox .md ul:nth-of-type(2) li:nth-of-type(2) a::before {
-				background:url(%%spritesheet%%) -66px -469px no-repeat transparent;
-			}
-			/* movilidad */
-			.titlebox .md ul:nth-of-type(2) li:nth-of-type(3) a {
-				background:#DE4763;
-			}
-			.titlebox .md ul:nth-of-type(2) li:nth-of-type(3) a:hover {
-				background:#F74E6D;
-			}
-			.titlebox .md ul:nth-of-type(2) li:nth-of-type(3) a::before {
-				background:url(%%spritesheet%%) -114px -469px no-repeat transparent;
-			}
-			/* bienes publicos */
-			.titlebox .md ul:nth-of-type(2) li:nth-of-type(4) a {
-				background:#4FCCBA;
-			}
-			.titlebox .md ul:nth-of-type(2) li:nth-of-type(4) a:hover {
-				background:#5FF9E2;
-			}
-			.titlebox .md ul:nth-of-type(2) li:nth-of-type(4) a::before {
-				background:url(%%spritesheet%%) -66px -516px no-repeat transparent;
-			}
-			/* uso de suelo */
-			.titlebox .md ul:nth-of-type(2) li:nth-of-type(5) a {
-				background:#EE9466;
-			}
-			.titlebox .md ul:nth-of-type(2) li:nth-of-type(5) a:hover {
-				background:#FD9D6C;
-			}
-			.titlebox .md ul:nth-of-type(2) li:nth-of-type(5) a::before {
-				background:url(%%spritesheet%%) -114px -515px no-repeat transparent;
-			}
-			/* transparencia */
-			.titlebox .md ul:nth-of-type(2) li:nth-of-type(6) a {
-				background:#5B104F;
-			}
-			.titlebox .md ul:nth-of-type(2) li:nth-of-type(6) a:hover {
-				background:#8B1879;
-			}
-			.titlebox .md ul:nth-of-type(2) li:nth-of-type(6) a::before {
-				background:url(%%spritesheet%%) -114px -561px no-repeat transparent;
-			}
 
 			.titlebox .md h1 {
 				padding:5px;
@@ -3057,14 +3035,30 @@ button:lang(nt), #search input[type='submit']:lang(nt), .wiki-page .wiki-page-co
 	margin-top:4px;
 	&[value^="#Propuesta"],
 	&[value^="#Noticia"],
-	&[value^="#EnMiDistrito"],
-	&[value^="#Elecciones2015"],
-	&[value^="#Sugerencias"]
+	&[value^="#Sugerencia"]
 	{
 		font-size:200%;
-		font-weight:bold;
-		font-family:Helvetica,sans-serif;
+		font-weight:normal;
+		font-family:Helvetica !important;
+		letter-spacing:1px;
 	}
+	&[value^="#Elecciones2015"],
+	&[value^="#EnMiDistrito"],
+	&[value^="flair:Seguridad"],
+	&[value^="flair:Espacios"],
+	&[value^="flair:Movilidad"],
+	&[value^="flair:Bienes"],
+	&[value^="flair:Uso-de-suelo"],
+	&[value^="flair:Transparencia"]
+	{
+		font-size:200%;
+		font-weight:normal;
+		font-family:Helvetica !important;
+		letter-spacing:1px;
+		color:#fff !important;
+	}
+
+	/* tabs */
 	&[value^="#Propuesta"] {
 		background:#F1E315;
 	}
@@ -3073,13 +3067,31 @@ button:lang(nt), #search input[type='submit']:lang(nt), .wiki-page .wiki-page-co
 	}
 	&[value^="#EnMiDistrito"] {
 		background:#215251;
-		color:#fff !important;
 	}
 	&[value^="#Elecciones2015"] {
 		background:#555;
-		color:#fff !important;
 	}
 	&[value^="#Sugerencia"] {
 		background:#aaa;
+	}
+
+	/* mesas de trabajo */
+	&[value^="flair:Seguridad"] {
+		background:#F13A30;
+	}
+	&[value^="flair:Espacios"] {
+		background:#469B7E;
+	}
+	&[value^="flair:Movilidad"] {
+		background:#DE4763;
+	}
+	&[value^="flair:Bienes"] {
+		background:#4FCCBA;
+	}
+	&[value^="flair:Uso-de-suelo"] {
+		background:#EE9466;
+	}
+	&[value^="flair:Transparencia"] {
+		background:#5B104F;
 	}
 }
