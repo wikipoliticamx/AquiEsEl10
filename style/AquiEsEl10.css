@@ -387,9 +387,9 @@ h1.redditname {
 /* Sidebar */
 .side {
   float: right;
-  margin: 34px 10px 0px 0px;
+  margin: 24px 10px 0px 0px;
   border-radius: 2px;
-  padding-top: 25px;
+  padding-top: 300px;
   width: 300px;
   text-align: left;
   font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif; }
@@ -1054,9 +1054,6 @@ div.titlebox span.word {
       border-left-color: #aaa; }
 
 /* Search */
-.side #search {
-  margin-top: 270px; }
-
 #search input[type=text] {
   margin: 17px 0px 0px 0px;
   padding: 5px 0px 5px 17px;
@@ -1263,7 +1260,7 @@ div.titlebox span.word {
 /* Links/Posts Area */
 /* Actual Links */
 .content {
-  margin-top: 34px;
+  margin-top: 24px;
   margin-left: 10px; }
 
 /* Fixed Scroll Banner */
@@ -2540,8 +2537,7 @@ hr {
 .search-page #search {
   position: relative;
   top: 0px;
-  margin: 0px 150px 0px 80px;
-  margin-top: 150px;
+  margin: 5px 150px 0px 80px;
   height: 50px;
   background: none !important;
   background-color: transparent;
@@ -2550,14 +2546,16 @@ hr {
 .search-page .searchpane {
   margin: 5px 320px 5px 0px;
   padding-left: 96px;
-  height: 120px; }
+  height: 70px; }
+  .search-page .searchpane h4 {
+    display: none; }
 
 .search-page .raisedbox {
   padding: 5px;
   border: 0px solid; }
 
 .search-page #search input[type=text] {
-  padding: 5px 0px 5px 40px;
+  padding: 5px 0px 5px 10px;
   font-size: 150%; }
 
 .searchfacets {
@@ -2573,7 +2571,7 @@ hr {
   display: none !important; }
 
 .search-page .side {
-  padding-top: 40px; }
+  padding-top: 300px; }
 
 .search-summary {
   margin-right: 40px; }

@@ -8,11 +8,11 @@ Tenemos más en común de lo que creemos.
 
 Este es el espacio para encontrarnos, compartir ideas para proponer y discutir sobre [nuestro Distrito 10](https://www.google.com/maps/d/viewer?mid=zSGSHyOMWpbM.kz1ta9zJH7wc) en Jalisco, México.
 
-* [Propuestas](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=%23Propuesta%3A)
-* [Noticias](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=%23Noticia%3A)
-* [Mi Distrito](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=%23EnMiDistrito%3A)
-* [Elecciones 2015](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=%23Elecciones2015%3A)
-* [Sugerencias](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=%23Sugerencia%3A)
+* [Propuestas](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=%23Propuesta)
+* [Noticias](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=%23Noticia)
+* [Mi Distrito](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=%23EnMiDistrito)
+* [Elecciones 2015](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=%23Elecciones2015)
+* [Sugerencias](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=%23Sugerencia)
 
 # Mesas de trabajo
 
