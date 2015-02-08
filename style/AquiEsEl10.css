@@ -1907,11 +1907,11 @@ form#newlink.submit.content {
   visibility: visible;
   background-color: rgba(0, 0, 0, 0.7); }
 
-.flair:before {
-  opacity: .65;
-  max-width: 17px !important;
-  height: 18px !important; }
-
+/*.flair:before{*/
+/*opacity:.65;*/
+/*max-width:17px!important;*/
+/*height:18px!important*/
+/*}*/
 .flair-SOMETHING:before {
   content: "";
   width: 10px;
@@ -2063,11 +2063,6 @@ form#newlink.submit.content {
 .linkflair-transparencia:before {
   background: url(%%spritesheet%%) -117px -561px no-repeat transparent; }
 
-.linkflair-wikipolitica {
-  background: #83ccc0;
-  border: 1px solid #60a695;
-  color: #ce565e; }
-
 /* USER FLAIRS */
 .flair {
   height: auto;
@@ -2079,6 +2074,24 @@ form#newlink.submit.content {
   border: 1px solid #DADADA;
   padding: 0px 3px 2px 3px;
   cursor: help; }
+
+.flair-wikipolitica {
+  background: #C3ECE3;
+  color: #437468;
+  border: 1px solid #60a695;
+  position: relative; }
+
+.flair-wikipolitica:before {
+  content: 'Wikipolitica';
+  display: inline-block;
+  width: 12ex;
+  background: #FAB9BE;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #ce565e;
+  text-align: center;
+  height: 100%; }
 
 /* Flair-page  */
 div.tabpane-content {
