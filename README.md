@@ -1,17 +1,18 @@
-AQUI es el 10
+AquiEsEl10
 ===============
 
-Here lives the frontend code (CSS & MD & images) for [aquiesel10.mx](http://aquiesel10.mx) (http://reddit.com/r/AquiEsEl10)
+Here lives the frontend code (CSS & MD & images) for the subreddit [AquiEsEl10.mx](http://aquiesel10.mx) (http://reddit.com/r/AquiEsEl10)
+
 ![screenshot](https://raw.githubusercontent.com/wikipoliticamx/AquiEsEl10/master/screenshots/AquiEsEl10-7feb2015-1.png)
 
 Links
 =====
 We work on 3 distinct wikis:
-* The [Textos](https://github.com/wikipoliticamx/AquiEsEl10/wiki/Textos) page in the Github wiki.
+* The github wiki, specially the [Textos](https://github.com/wikipoliticamx/AquiEsEl10/wiki/Textos) page.
 * This titanpad: https://wikipolitica.titanpad.com/24
 * The [subreddit wiki](https://www.reddit.com/r/AquiEsEl10/wiki/index)
 
-[First mockup](https://moqups.com/wikipoliticamx/Btdy4CHx/p:a75808438). See also the screenshots folder.
+[First mockup](https://moqups.com/wikipoliticamx/Btdy4CHx/p:a75808438).
 
 Other Geekery
 =============
