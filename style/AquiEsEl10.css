@@ -1260,7 +1260,7 @@ div.titlebox span.word {
 /* Links/Posts Area */
 /* Actual Links */
 .content {
-  margin-top: 24px;
+  margin-top: 40px;
   margin-left: 10px; }
 
 /* Fixed Scroll Banner */
@@ -2062,6 +2062,11 @@ form#newlink.submit.content {
   background-color: #5B104F; }
 .linkflair-transparencia:before {
   background: url(%%spritesheet%%) -117px -561px no-repeat transparent; }
+
+.linkflair-wikipolitica {
+  background: #83ccc0;
+  border: 1px solid #60a695;
+  color: #ce565e; }
 
 /* USER FLAIRS */
 .flair {

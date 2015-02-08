@@ -8,6 +8,8 @@ Tenemos más en común de lo que creemos.
 
 Este es el espacio para encontrarnos, compartir ideas para proponer y discutir sobre [nuestro Distrito 10](https://www.google.com/maps/d/viewer?mid=zSGSHyOMWpbM.kz1ta9zJH7wc) en Jalisco, México.
 
+[Lee más sobre este experimento &rarr;](https://www.reddit.com/r/AquiEsEl10/wiki/index)
+
 * [Propuestas](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=%23Propuesta)
 * [Noticias](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=%23Noticia)
 * [Mi Distrito](http://www.reddit.com/r/AquiEsEl10/search?sort=new&restrict_sr=on&q=%23EnMiDistrito)
@@ -25,12 +27,11 @@ Este es el espacio para encontrarnos, compartir ideas para proponer y discutir s
 
 # Reglas
 1. Sé excelente con los demás.
-2. Lorem ipsum dolor.
-3. Lorem ipsum dolor.
-4. Lorem ipsum dolor.
-5. Lorem ipsum dolor.
-6. Lorem ipsum dolor.
-7. Lorem ipsum dolor.
+2. Sólo contenido del Distrito 10.
+3. Siempre un tono constructivo.
+4. Cero tolerancia a la agresión.
+
+[Leer más &rarr;](https://www.reddit.com/r/AquiEsEl10/wiki/reglas)
 
 # Conoce tu distrito
 [El distrito 10](https://www.google.com/maps/d/viewer?mid=zSGSHyOMWpbM.kz1ta9zJH7wc)
