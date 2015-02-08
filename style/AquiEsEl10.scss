@@ -1536,20 +1536,36 @@ body {
 			display:none;
 		}
 
-		.thing a.title[href*="enmidistrito"]:before,
-		.thing a.title[href*="elecciones2015"]:before,
-		.thing a.title[href*="/noticia"]:before,
-		.thing a.title[href*="/sugerencia"]:before,
-		.thing a.title[href*="/propuesta"]:before 
+		.thing a.title[href*="enmidistrito"],
+		.thing a.title[href*="elecciones2015"],
+		.thing a.title[href*="/noticia"],
+		.thing a.title[href*="/sugerencia"],
+		.thing a.title[href*="/propuesta"]
 		{
-			content:'';
-			position:absolute;
-			left:-85px;
-			top:-2px;
-			width:45px;
-			height:45px;
-			background:transparent;
-			z-index:100;
+			&:before {
+				content:'';
+				position:absolute;
+				left:-85px;
+				top:-2px;
+				width:45px;
+				height:45px;
+				background:transparent;
+				z-index:100;
+			}
+			/*&:after {*/
+				/*content:'';*/
+				/*position:absolute;*/
+				/*left:0;*/
+				/*top:0;*/
+				/*width:45px;*/
+				/*height:1.3em;*/
+				/*line-height:1.3em;*/
+				/*text-align:center;*/
+				/*background:#fff;*/
+				/*color:#000;*/
+				/*z-index:100;*/
+				/*font-weight:normal;*/
+			/*}*/
 		}
 		.thing a.title[href*="enmidistrito"]:before {
 			 background:url(%%spritesheet%%) -17px -561px no-repeat transparent;
@@ -1566,6 +1582,27 @@ body {
 		.thing a.title[href*="/sugerencia"]:before {
 			 background:url(%%spritesheet%%) -66px -606px no-repeat transparent;
 		}
+
+		/*.thing a.title[href*="enmidistrito"]:after {*/
+			/*content:"#EnMiDistrito:";*/
+			/*width:14.5ex;*/
+		/*}*/
+		/*.thing a.title[href*="elecciones2015"]:after {*/
+			/*content:"#Elecciones2015:";*/
+			/*width:16.5ex;*/
+		/*}*/
+		/*.thing a.title[href*="/propuesta"]:after {*/
+			/*content:"#Propuesta:";*/
+			/*width:11.5ex;*/
+		/*}*/
+		/*.thing a.title[href*="/noticia"]:after {*/
+			/*content:"#Noticia:";*/
+			/*width:9.5ex;*/
+		/*}*/
+		/*.thing a.title[href*="/sugerencia"]:after {*/
+			/*content:"#Sugerencia:";*/
+			/*width:12ex;*/
+		/*}*/
 
 		.thumbnail {
 			max-height: 50px;
