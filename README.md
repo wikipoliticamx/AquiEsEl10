@@ -14,6 +14,8 @@ We work on 3 distinct wikis:
 
 [First mockup](https://moqups.com/wikipoliticamx/Btdy4CHx/p:a75808438).
 
+The [Reddit Enchanement Suite extension](http://redditenhancementsuite.com/download-chrome.html) is **highly** recommended.
+
 Other Geekery
 =============
 
