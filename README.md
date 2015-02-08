@@ -2,6 +2,7 @@ AQUI es el 10
 ===============
 
 Here lives the frontend code (CSS & MD & images) for [aquiesel10.mx](http://aquiesel10.mx) (http://reddit.com/r/AquiEsEl10)
+![screenshot](https://raw.githubusercontent.com/wikipoliticamx/AquiEsEl10/master/screenshots/AquiEsEl10-7feb2015-1.png)
 
 Links
 =====
