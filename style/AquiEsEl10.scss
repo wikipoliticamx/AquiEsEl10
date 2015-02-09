@@ -3133,3 +3133,10 @@ button:lang(nt), #search input[type='submit']:lang(nt), .wiki-page .wiki-page-co
 		/*background:url(%%spritesheet%%) -114px -561px no-repeat transparent;*/
 	/*}*/
 }
+
+.submit-page textarea {
+}
+
+#reddit-field, #text-desc, #link-desc, .submit_text.roundfield {
+	display:none !important;
+}

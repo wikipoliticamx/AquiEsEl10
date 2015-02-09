@@ -3103,3 +3103,6 @@ div.titlebox span.number:after {
     background: #EE9466; }
   .search-page #search input[type=text][value^="flair:Transparencia"] {
     background: #5B104F; }
+
+#reddit-field, #text-desc, #link-desc, .submit_text.roundfield {
+  display: none !important; }
