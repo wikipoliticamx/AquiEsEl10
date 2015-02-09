@@ -698,22 +698,23 @@ body {
 			}
 
 			/* mesas de trabajo */
-			.titlebox .md ul:nth-of-type(2) {
-				padding-left:0;
+			.titlebox .md ul:nth-of-type(2) {padding-left:0;
 				li {
 					display:block;
 					padding:5px;
-					margin:10px 2px;
+					margin:5px 2px;
 					color:white;
 					text-align:right;
 					position:relative;
+					-webkit-transition: all .3s ease;
+					-moz-transition: all .3s ease;
+					-ms-transition: all .3s ease;
+					-o-transition: all .3s ease;
+					transition: all .3s ease;
+
 					a {
 						color:white;
 						display:inline-block;
-						border-radius:5px;
-						box-shadow:2px 2px 3px rgba(0,0,0,0.2);
-						-webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
-						-moz-box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
 						line-height:30px;
 						height:30px;
 						text-indent:30px;
@@ -721,11 +722,17 @@ body {
 						width:205px;
 						margin-right:25px;
 
+						border-radius:5px;
+						box-shadow:2px 2px 3px rgba(0,0,0,0.2);
+						-webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+						-moz-box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+
 						-webkit-transition: all .3s ease;
 						-moz-transition: all .3s ease;
 						-ms-transition: all .3s ease;
 						-o-transition: all .3s ease;
 						transition: all .3s ease;
+
 						&:before {
 							content:'';
 							position:absolute;
@@ -735,33 +742,64 @@ body {
 							height:45px;
 							background:transparent;
 							z-index:10;
-
-							-webkit-transition: all .3s ease;
-							-moz-transition: all .3s ease;
-							-ms-transition: all .3s ease;
-							-o-transition: all .3s ease;
-							transition: all .3s ease;
 						}
-						&:hover {
+					}
+					&:hover {margin-left:-25px;
+						a {
+							width:225px;
 							color:white;
 							text-decoration:none;
-							width:185px;
-
 							box-shadow:4px 4px 7px rgba(0,0,0,0.5);
 							-webkit-box-shadow: 4px 4px 7px rgba(0,0,0,0.5);
 							-moz-box-shadow: 4px 4px 7px rgba(0,0,0,0.5);
 						}
-						&:hover::before {
-							left:25px;
-							
-							 /*-webkit-animation:spin 2s ease-in-out;*/
-							 /*-moz-animation:spin 2s ease-in-out;*/
-							 /*animation:spin 2s ease-in-out; }*/
+						a:before {
+							 -webkit-animation:spin 2s ease-in-out;
+							 -moz-animation:spin 2s ease-in-out;
+							 animation:spin 2s ease-in-out; }
 
-							 /*@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }*/
-							 /*@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }*/
-							 /*@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }*/
-						 }
+							 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+							 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+							 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }
+						}
+					}
+					em {
+						display:none;
+						position:absolute;
+						width:220px;
+						top:-10px;
+						left:-250px;
+						text-align:center;
+						font-weight:normal;
+						font-style:normal;
+						background:#666;
+						padding:8px 10px;
+						color:#fff;
+						font-size:90%;
+
+						border-radius:5px;
+						box-shadow:2px 2px 3px rgba(0,0,0,0.2);
+						-webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+						-moz-box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+						
+						&:after {
+							content:'';
+							width: 0; 
+							height: 0; 
+							position:absolute;
+							right:-12px;
+							top:15px;
+							border-bottom: 12px solid transparent;  /* left arrow slant */
+							border-top: 12px solid transparent; /* right arrow slant */
+							border-left: 12px solid #666; /* bottom, add bacckground */
+							font-size: 0;
+							line-height: 0;
+						}
+					}
+					&:hover {
+						em { 
+							display:block;
+						}
 					}
 				}
 			}
@@ -959,7 +997,7 @@ body {
 					}
 					&:hover {
 						background: #AED9D8;
-						margin-left: 1.5em;
+						margin-left: -1.5em;
 						border: 1px dashed #C6BB12;
 						&:before {
 							background:#215251;
@@ -972,6 +1010,43 @@ body {
 						font-weight:bold;
 						&:before {
 							background:#C6BB12;
+						}
+					}
+					em {
+						display:none;
+						position:absolute;
+						width:220px;
+						top:-10px;
+						left:-270px;
+						text-align:center;
+						font-weight:normal;
+						font-style:normal;
+						background:#666;
+						padding:8px 10px;
+						color:#fff;
+
+						border-radius:5px;
+						box-shadow:2px 2px 3px rgba(0,0,0,0.2);
+						-webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+						-moz-box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+						
+						&:after {
+							content:'';
+							width: 0; 
+							height: 0; 
+							position:absolute;
+							right:-12px;
+							top:9px;
+							border-bottom: 12px solid transparent;  /* left arrow slant */
+							border-top: 12px solid transparent; /* right arrow slant */
+							border-left: 12px solid #666; /* bottom, add bacckground */
+							font-size: 0;
+							line-height: 0;
+						}
+					}
+					&:hover {
+						em { 
+							display:block;
 						}
 					}
 				}
@@ -2830,12 +2905,6 @@ body {transition: all 0.25s ease;}
 	/*.link .entry li a, .link:hover .entry li a {transition: opacity 0.15s ease-in-out;}*/		/* Currently causing issues. Needs investigating - https://github.com/Axel--/Naut-for-reddit/issues/9 */
 
 
-
-
-
-
-
-
 /*  NIGHTMODE - Work in progress */
 body:lang(nt), #search input[type=text]:lang(nt), .res-nightmode body  		{background-color: #1c1f26;}
 .comments-page textarea:lang(nt), textarea:lang(nt) 						{background-color: #1c1f26 !important;}
@@ -3006,7 +3075,7 @@ button:lang(nt), #search input[type='submit']:lang(nt), .wiki-page .wiki-page-co
 	}
 
 /* Subscriber Name */
-	div.titlebox span.number:after {content: " readers";} /* Leave the space before the name! */
+	div.titlebox span.number:after {content: " ocupantes";} /* Leave the space before the name! */
 
 /* --------------------------- */
 
